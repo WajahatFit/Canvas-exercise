@@ -3,27 +3,27 @@ const ctx = canvas.getContext('2d');
 console.log(ctx);
 
 const hospitalImg = new Image();
-hospitalImg.src = '/hospital.png';
+hospitalImg.src = 'images/hospital.png';
 hospitalImg.onload = function () {
 
 
 const ambulanceImg = new Image();
-ambulanceImg.src = '/ambulance.png';
+ambulanceImg.src = 'images/ambulance.png';
 ambulanceImg.onload = function () {
 
 
 const planeImg = new Image();
-planeImg.src = '/plane.png';
+planeImg.src = 'images/plane.png';
 
 
 const policeCarImg = new Image();
-policeCarImg.src = '/policeCar.png';
+policeCarImg.src = 'images/policeCar.png';
 
 const burnningSun = new Image();
-burnningSun.src = '/burnningSun.jpeg'
+burnningSun.src = 'images/burnningSun.jpeg'
 
 
-//window .onload not drawing anything
+//window.onload making all the elements invisible...
 
 window.onload = function () {
     ctx.drawImage(hospitalImg, hospital.x, hospital.y, hospital.width, hospital.height);
