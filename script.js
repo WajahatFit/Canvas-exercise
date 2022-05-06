@@ -4,12 +4,12 @@ console.log(ctx);
 
 const hospitalImg = new Image();
 hospitalImg.src = 'images/hospital.png';
-hospitalImg.onload = function () {
+
 
 
 const ambulanceImg = new Image();
 ambulanceImg.src = 'images/ambulance.png';
-ambulanceImg.onload = function () {
+
 
 
 const planeImg = new Image();
